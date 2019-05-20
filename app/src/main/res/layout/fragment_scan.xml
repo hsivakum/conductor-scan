@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simpleSwipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.vignesh.checke.HomeFragment">
+
+    <TextView
+        android:id="@+id/busnoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="77dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="60dp"
+        android:text="Bus No"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/busno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/busnoLabel"
+        android:layout_marginEnd="93dp"
+        android:layout_marginRight="93dp"
+        android:text="111"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tripLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/busnoLabel"
+        android:layout_alignStart="@+id/busnoLabel"
+        android:layout_below="@+id/busnoLabel"
+        android:layout_marginTop="38dp"
+        android:text="Trip"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/trip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tripLabel"
+        android:layout_alignLeft="@+id/busno"
+        android:layout_alignStart="@+id/busno"
+        android:text="1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp"
+        android:text="Scan" />
+
+    <TextView
+        android:id="@+id/totalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tripLabel"
+        android:layout_alignStart="@+id/tripLabel"
+        android:layout_below="@+id/tripLabel"
+        android:layout_marginTop="44dp"
+        android:text="Total"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/totalAmount"
+        android:layout_alignLeft="@+id/trip"
+        android:layout_alignStart="@+id/trip"
+        android:text="0"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/headLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/totalAmount"
+        android:layout_alignStart="@+id/totalAmount"
+        android:layout_below="@+id/totalAmount"
+        android:layout_marginTop="44dp"
+        android:text="Heads"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/heads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/headLabel"
+        android:layout_alignLeft="@+id/amount"
+        android:layout_alignStart="@+id/amount"
+        android:text="0"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

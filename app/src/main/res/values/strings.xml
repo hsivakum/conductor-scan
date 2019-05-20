@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">CheckE</string>
+    <string name="title_activity_home_main">HomeMain</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    !-- Slide 1 Title and Description-->
+    <string name="slide_1_title"> provide Tickets</string>
+    <string name="slide_1_desc"> No need to give paper tickets</string>
+
+    <!-- Slide 2  Title and Description-->
+    <string name="slide_2_title">Scan Tickets</string>
+    <string name="slide_2_desc"> Make the passengers to get ticket in digitialized way </string>
+
+
+    <!-- Slide 3 Title and Description-->
+    <string name="slide_3_title">Verify tickets</string>
+    <string name="slide_3_desc"> verify the tickets within a Second  </string>
+
+    <!-- Slide 4 Title and Description-->
+    <string name="slide_4_title">Payment mode </string>
+    <string name="slide_4_desc"> No need to carry your wallet and give balance to passengers</string>
+
+    <string name="my_preference">"com.example.vignesh.MyPref"</string>
+    <string name="my_preference_key">"com.example.vignesh.MyPrefKey"</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+
+    <string-array name="tripses">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="amount">
+        <item>No Filter</item>
+        <item>10-50</item>
+        <item>50-100</item>
+        <item>100-150</item>
+    </string-array>
+
+    <string-array name="heads">
+        <item>No Filter</item>
+        <item>1-5</item>
+        <item>5-10</item>
+        <item>10-15</item>
+    </string-array>
+</resources>

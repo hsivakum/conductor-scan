@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#26a69a</color>
+    <color name="colorPrimaryDark">#026157</color>
+    <color name="colorAccent">#048b7a</color>
+
+
+    <color name="colorSlide_1">#009688</color>
+    <color name="colorSlide_2">#d341f4</color>
+    <color name="colorSlide_3">#f44161</color>
+    <color name="colorSlide_4">#3F51B5</color>
+
+    <color name="active_dots">#fffafa</color>
+    <color name="inactive_dots">#83878b</color>
+    <color name="primary">#007FFF</color>
+    <color name="primary_dark">#0000FF</color>
+    <color name="primary_darker">#CC1D1D</color>
+    <color name="accent">#ffffff</color>
+    <color name="background_color">#009688</color>
+    <color name="grayLight">#fafafa</color>
+    <color name="endBlue">#0bcce6</color>
+    <color name="startBlue">#09c6df</color>
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#ffffff</color>
+
+</resources>
